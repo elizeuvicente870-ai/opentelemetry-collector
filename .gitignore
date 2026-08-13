@@ -1,42 +1,34 @@
-bin/
-dist/
-/local
-.schemas
+# Gradle files
+.gradle/
+build/
 
-# GoLand IDEA
-/.idea/
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ
 *.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
-# VS Code
-.vscode/
-.devcontainer/
+# Keystore files
+*.jks
+*.keystore
 
-# Cursor
-.cursor
+# Google Services (e.g. APIs or Firebase)
+google-services.json
 
-# Emacs
-*~
-\#*\#
-
-# Miscellaneous files
-*.sw[op]
-*.DS_Store
-
-# Coverage
-coverage/*
-coverage.txt
-
-# Benchmarks
-**/benchmark.txt
-benchmarks.txt
-
-# Wix
-*.wixobj
-*.wixpdb
-
-# golang
-go.work*
-
-# npm (used for markdown-link-check)
-node_modules/*
-package-lock.json
+# Android Profiling
+*.hprof
